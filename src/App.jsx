@@ -1,5 +1,3 @@
-// src/App.js
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./App.css";
 import  "bootstrap/dist/css/bootstrap.min.css"
@@ -20,7 +18,6 @@ function App() {
     setAltura(valorFormatado);
   };
 
-  // eslint-disable-next-line no-unused-vars
   const handlePesoChange = (e) => {
     setPeso(e.target.value);
   };
@@ -52,7 +49,7 @@ function App() {
 
   return (
     <div className="App d-flex align-items-center justify-content-center vh-100">
-      <div className="text-center p-5 mb-4 mt-4 bg-info rounded-3">
+      <div className=" p-5 mb-4 mt-4 rounded-2">
         <h1>Calculadora de IMC</h1>
         <div>
           <label className="m-0">Altura (cm):</label>
